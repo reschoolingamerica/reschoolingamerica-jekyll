@@ -165,10 +165,10 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 0.5));
-  max-width:         calc(#{$content-width} - (#{$spacing-unit} *  0.5));
-  margin-right: auto;
-  margin-left: auto;
+  // max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 0.5));
+  // max-width:         calc(#{$content-width} - (#{$spacing-unit} *  0.5));
+  margin-right: 13%; 
+  margin-left: 13%;
   display: flex;
   padding-right: $spacing-unit;
   padding-left: $spacing-unit;
