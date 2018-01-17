@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Trick or Treat? The Common Core Is Knocking at Your Door
-tags: "Common Core"
+tags: Common_Core
 ---
 
 The Common Core Standards that now dictate the so-called “standards” and therefore the testing and therefore the curriculum (despite claims to the contrary) of forty-five state school systems in the land have dressed themselves up nicely. They have donned this season’s popular costume of “college and career readiness” in a “twenty-first-century global economy.” It seems to be the only one anyone in either public office or the public schools is wearing this year since the liberal arts have been out of fashion for some time.

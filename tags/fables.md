@@ -1,5 +1,6 @@
 ---
-layout: tagpage
-title: "Fables"
-tags: fables 
+layout: tagpage 
+title: Fables
+tag: fables 
+permalink: /fables/
 ---
