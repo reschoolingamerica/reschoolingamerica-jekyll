@@ -4,18 +4,19 @@ layout: default
 
 {% include new_post_bar.html %}
 <div class="home">
-  
-  <h1 class="page-heading">Posts</h1>
-  
-  
+  <img class="home-image" src="/assets/img/education.jpg" alt="education" height="400" width="600" style="border-radius:6px;margin-bottom:15px;">
+
+  <h1 class="page-heading">Recent Articles:</h1>
+
+
   {{ content }}
-  
+
   <ul class="post-list">
     {% for post in site.posts %}
     <li>
       {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
       <span class="post-meta">{{ post.date | date: date_format }}</span>
-      
+
       <h2>
         <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
       </h2>
@@ -23,8 +24,8 @@ layout: default
     </li>
     {% endfor %}
   </ul>
-  
+
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  
+
 </div>
 {% include video_bar.html %}

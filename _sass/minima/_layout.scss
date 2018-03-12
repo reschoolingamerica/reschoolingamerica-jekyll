@@ -33,10 +33,10 @@
   .nav-trigger {
     display: none;
   }
-  
+
 .trigger {
   float: right;
-}  
+}
 
   .menu-icon {
     display: none;
@@ -181,9 +181,9 @@
 /**
  * Page content
  */
-.page-content {
-  padding: $spacing-unit 0;
-}
+// . {
+//   padding: $spacing-unit 0;
+// }
 
 .page-heading {
   @include relative-font-size(1.25);
