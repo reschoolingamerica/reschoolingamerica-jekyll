@@ -1,8 +1,15 @@
---- 
-layout: default 
+---
+layout: default
 ---
 <div class="post">
-  <h1>Tag: {{ page.tag }}</h1>
+{% assign myText = page.tag %}
+{% assign delimiter = '_' %} {% capture myText %}{{ myText | replace: delimiter, ' ' }}{% endcapture %}
+{% capture myFirstWord %}{{ myText | truncatewords: 1 | remove: '...' }}{% endcapture %}
+{% capture mySecondWord %}{{ myText | replace: myFirstWord, '' }}{% endcapture %}
+{% assign firstWord= myFirstWord | capitalize %}
+{% assign secondWord= mySecondWord | remove: " " | capitalize%}
+
+  <h1>Articles on the {{ firstWord }} {{secondWord}}</h1>
   <ul>
     {% for post in site.tags[page.tag] %}
     <li>
